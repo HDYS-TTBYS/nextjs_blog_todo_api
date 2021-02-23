@@ -28,7 +28,7 @@ SECRET_KEY = config("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config("DEBUG")
 
-ALLOWED_HOSTS = ["git.heroku.com/nextjs-blog-todo-api.git"]
+ALLOWED_HOSTS = ["nextjs-blog-todo-api.herokuapp.com"]
 
 # Application definition
 
@@ -57,7 +57,6 @@ MIDDLEWARE = [
 ]
 CORS_ORIGIN_WHITELIST = [
     "http://localhost:3000",
-    "https://git.heroku.com/nextjs-blog-todo-api.git",
 ]
 SIMPLE_JWT = {
     'AUTH_HEADER_TYPES': ('JWT',),
