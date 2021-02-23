@@ -30,7 +30,6 @@ DEBUG = config("DEBUG")
 
 ALLOWED_HOSTS = ["git.heroku.com/nextjs-blog-todo-api.git"]
 
-
 # Application definition
 
 INSTALLED_APPS = [
