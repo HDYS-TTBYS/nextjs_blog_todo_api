@@ -57,6 +57,7 @@ MIDDLEWARE = [
 ]
 CORS_ORIGIN_WHITELIST = [
     "http://localhost:3000",
+    "https://git.heroku.com/nextjs-blog-todo-api.git",
 ]
 SIMPLE_JWT = {
     'AUTH_HEADER_TYPES': ('JWT',),
