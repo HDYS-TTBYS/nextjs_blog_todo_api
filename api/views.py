@@ -21,7 +21,7 @@ class PostListView(generics.ListAPIView):
 
 class PostRetriveView(generics.RetrieveAPIView):
     queryset = Post.objects.all()
-    serializer_class = TaskSerializer
+    serializer_class = PostSerializer
     permission_classes = (AllowAny,)
 
 
